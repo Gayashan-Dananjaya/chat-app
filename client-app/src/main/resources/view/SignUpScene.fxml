@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane prefHeight="198.0" prefWidth="600.0" stylesheets="@../style/Styles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.client.controller.SignUpSceneController">
+   <children>
+      <HBox layoutX="7.0" layoutY="47.0" prefWidth="200.0" spacing="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+         <children>
+            <Label prefWidth="100.0" text="Username" />
+            <TextField fx:id="txtUsername" maxWidth="1.7976931348623157E308" onAction="#txtUsernameOnAction" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+      <HBox layoutX="20.0" layoutY="90.0" maxWidth="1.7976931348623157E308" spacing="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+         <children>
+            <Label prefWidth="100.0" text="Password" />
+            <PasswordField fx:id="txtPassword" onAction="#txtPasswordOnAction" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="20.0" layoutY="135.0" maxWidth="1.7976931348623157E308" spacing="50.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+         <children>
+            <Button fx:id="btnSignUp" defaultButton="true" mnemonicParsing="false" onAction="#btnSignUpOnAction" prefWidth="150.0" text="SignUp" />
+            <Button fx:id="btnCancel" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnCancelOnAction" prefWidth="150.0" text="Cancel" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,9 @@
+.button, .text-field, .list-view {
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+}
+#btnSend {
+    -fx-background-color: green;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}

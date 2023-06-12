@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="209.0" prefWidth="600.0" stylesheets="@../style/Styles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.client.controller.MainSceneController">
+   <children>
+      <Button fx:id="btnLogin" layoutX="138.0" layoutY="81.0" mnemonicParsing="false" onAction="#btnLoginOnAction" text="LogIn">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSignUp" layoutX="361.0" layoutY="81.0" mnemonicParsing="false" onAction="#btnSignUpOnAction" text="SignUp">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
